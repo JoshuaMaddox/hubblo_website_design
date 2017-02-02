@@ -27,19 +27,67 @@ p {
   padding: 0;
 }
 
-.hb-header-title-container {
-  width:100%;
-  top: 20%;
-  left: 19%;
-  position: absolute;
-}
 
-.hb-header-title {
-  color: white;
-  font-weight: 700;
-}
 
 /* //// Media Quiries //// */
+
+    @media only screen and (min-width : 320px) {
+       .hb-header-title-container {
+        text-align: center;
+        position: absolute;
+        top: 20%;
+      }
+
+      .hb-header-title {
+        color: white;
+        font-weight: 700;
+        font-size: 1.5em;
+      } 
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+       .hb-header-title-container {
+        top: 30%;
+      }
+
+      .hb-header-title {
+        font-size: 2em;
+      } 
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+       .hb-header-title-container {
+        text-align: left;
+        top: 30%;
+        left: 10%;
+      }
+
+      .hb-header-title {
+        font-size: 2.5em;
+      } 
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+       .hb-header-title-container {
+        text-align: left;
+        top: 10%;
+        left: 10%;
+      }
+
+      .hb-header-title {
+        font-size: 2.5em;
+      } 
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
 
 
 /****** //// END GENERAL STYLES //// ******/
